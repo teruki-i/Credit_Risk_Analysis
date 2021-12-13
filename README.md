@@ -8,26 +8,43 @@ All models were created with a random state of 1.
 
 ## Results
 The results for each model was as following
+![naive_oversample](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/random_oversample_classification.png)
+
 * Naive Random Oversampling
   - Accuracy Score: 0.662
   - Precision Score: 0.01
   - Recall Score: 0.72
+
+![SMOTE](https://github.com/teruki-i/Credit_Risk_Analysis/blob/ba2202418c69f0a0e83ddc10fec7092f39dc389a/resources/SMOTE_classification.png)
+
 * SMOTE Oversampling
   - Accuracy Score: 0.657
   - Precision Score: 0.01
   - Recall Score: 0.61
+
+![undersampling](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/undersample_classification.png)
+
 * Cluster Centroids Undersampling
   - Accuracy Score: 0.657
   - Precision Score: 0.01
   - Recall Score: 0.69
+
+![SMOTEENN](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/SMOTEENN_classification.png)
+
 * Combination Undersampling and Oversampling (SMOTEENN)
   - Accuracy Score: 0.646
   - Precision Score: 0.01
   - Recall Score: 0.72
+
+![Balanced_Random_Forest](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/balanced_random_forest_classification.png)
+
 * Balanced Random Forest Classifier
   - Accuracy Score: 0.789
   - Precision Score: 0.03
   - Recall Score: 0.70
+
+![easy_ensemble](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/easy_ensemble_classification.png)
+
 * Easy Ensemble Classifier
   - Accuracy Score: 0.932
   - Precision Score: 0.09
