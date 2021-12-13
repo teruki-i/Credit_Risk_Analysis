@@ -11,51 +11,50 @@ The results for each model was as following
 
 * Naive Random Oversampling
 
-![naive_oversample](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/random_oversample_classification.png)
-
   - Accuracy Score: 0.662
   - Precision Score: 0.01
   - Recall Score: 0.72
 
-* SMOTE Oversampling
+![naive_oversample](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/random_oversample_classification.png)
 
-![SMOTE](https://github.com/teruki-i/Credit_Risk_Analysis/blob/ba2202418c69f0a0e83ddc10fec7092f39dc389a/resources/SMOTE_classification.png)
+* SMOTE Oversampling
 
   - Accuracy Score: 0.657
   - Precision Score: 0.01
   - Recall Score: 0.61
 
-* Cluster Centroids Undersampling
+![SMOTE](https://github.com/teruki-i/Credit_Risk_Analysis/blob/ba2202418c69f0a0e83ddc10fec7092f39dc389a/resources/SMOTE_classification.png)
 
-![undersampling](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/undersample_classification.png)
+* Cluster Centroids Undersampling
 
   - Accuracy Score: 0.657
   - Precision Score: 0.01
   - Recall Score: 0.69
 
-* Combination Undersampling and Oversampling (SMOTEENN)
+![undersampling](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/undersample_classification.png)
 
-![SMOTEENN](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/SMOTEENN_classification.png)
+* Combination Undersampling and Oversampling (SMOTEENN)
 
   - Accuracy Score: 0.646
   - Precision Score: 0.01
   - Recall Score: 0.72
 
+![SMOTEENN](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/SMOTEENN_classification.png)
+
 * Balanced Random Forest Classifier
-
-![Balanced_Random_Forest](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/balanced_random_forest_classification.png)
-
   - Accuracy Score: 0.789
   - Precision Score: 0.03
   - Recall Score: 0.70
 
-* Easy Ensemble Classifier
+![Balanced_Random_Forest](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/balanced_random_forest_classification.png)
 
-![easy_ensemble](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/easy_ensemble_classification.png)
+* Easy Ensemble Classifier
 
   - Accuracy Score: 0.932
   - Precision Score: 0.09
   - Recall Score: 0.92
+
+![easy_ensemble](https://github.com/teruki-i/Credit_Risk_Analysis/blob/main/resources/easy_ensemble_classification.png)
 
 ## Summary
 All four of the resampling algorithms performed similarly at identifying credit card users with high credit risks. All had accuracy scores between 0.64 and 0.67 and precision scores of 0.01. There was more variation in recall with both the naive oversampling and combination (SMOTEENN) algorithms scoring highest at approximately 0.72 and the SMOTE oversampling algorithm scoring the lowest at approximately 0.61. 
