@@ -1,6 +1,10 @@
 # Credit Risk Analysis
 ## Overview
-In this analysis, I used four different resampling algorithms and two ensemble algorithms to predict credit risk based on user credit card data. The data was split into training and testing sets to train each model and then to test how well each model can predict credit risk. All models were created with a random state of 1.
+In this analysis, I used four different resampling algorithms and two ensemble algorithms to predict credit risk based on user credit card data. The data was split into training and testing sets to train each model and then to test how well each model can predict credit risk. The performance of each algorithm was asssessed based on accuracy, precision, and recall.
+
+Based on their performances, I made a recommendation as to which algorithm should be used in order to predict credit risk.
+
+All models were created with a random state of 1.
 
 ## Results
 The results for each model was as following
@@ -38,4 +42,6 @@ The balanced random forest classifier performed better than all four resampling 
 
 The easy ensemble classifier performed the best out of all six algorithms. With an accuracy score of approximately 0.932, the model was significantly more accurate than the other five. The precision score was much also higher than the rest, thus returning the fewest false positives. And with a recall score of approximately 0.92, the algorithm failed to capture only about 8% of high risk users.
 
-Based on these results, I would recommend using the easy ensemble classifier in order to predict credit risk. The high recall score suggests that this algorithm has the lowest risk of failing to identify low risk users. And as this model also has the highest precision score, there would be fewer false positives that require additional evaluation in order to re-assess their risk than there would be with the other algorithms.
+## Recommendation
+
+Based on these results, I recommend using the easy ensemble classifier in order to predict credit risk. The high recall score suggests that this algorithm has the lowest risk of failing to identify low risk users. And as this model also has the highest precision score, there would be fewer false positives that require additional evaluation in order to re-assess their risk than there would be with the other algorithms.
